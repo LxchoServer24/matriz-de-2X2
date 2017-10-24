@@ -37,6 +37,26 @@ int main(){
 	    		printf("[%i]",a[i][j]-b[i][j]);
 			}
 			printf("\n");
-		}	
+		}
+	printf("\n--------------------------------\n");
+	printf("sumar diagonalmente la matriz\n");
+	for (int k=0;k<2;k++){
+		for(int g=0;g<2;g++){
+			if(k==g){
+			printf("[%i]",a[k][g]+b[k][g]);
+		}
+		}
+		printf("\n");
+	}
+	printf("\n--------------------------------\n");
+	printf("restar diagonalmente la matriz\n");
+	for (int k=0;k<2;k++){
+		for(int g=0;g<2;g++){
+			if(k==g){
+			printf("[%i]",a[k][g]-b[k][g]);
+		}
+		}
+		printf("\n");
+	}	
 	return 0;	
 	}
